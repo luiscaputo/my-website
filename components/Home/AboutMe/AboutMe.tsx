@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Ether.js", "Solidity"],
-    ["Node.js", "TypeScript", "Framer Motion", "react-moralis", "web3.js"],
+    ["Nest.js", "JavaScript (ES6+)", "PHP", "Express.js", "Laravel"],
+    ["Node.js", "TypeScript", "Docker", "React.js", "OpenTelemetry"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -18,7 +18,7 @@ export default function AboutMe(props) {
             <ArrowIcon className={"flex-none h-4 md:h-6 w-4 md:w-5 translate-y-[0.5px] text-AAsecondary"} />
             <span className="text-AAsecondary font-Header text-sm  sm:text-xl"> 01.</span>
             <span className="flex-none text-gray-200 opacity-85 font-bold tracking-wider text-lg sm:text-2xl pl-4">
-              About Me
+              Sobre mim
             </span>
           </div>
           <div className="bg-gray-400 h-[0.2px] w-full sm:w-72 ml-4"></div>
@@ -28,40 +28,44 @@ export default function AboutMe(props) {
         <div className="w-full flex flex-col md:flex-row space-y-8 md:space-y-0  md:space-x-8 sm:space-x-2 ">
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
-              <span className="text-gray-400 ">
-                Hello! My name is Abdellatif, and I am a passionate software engineer and problem solver, dedicated to
-                creating impactful codes that thrive on the internet. My journey in computer science began in 2009 when
-                I delved into the world of Ethical Hacking using BackTrack OS. Little did I know that programming skills
-                would become essential in pursuing this interest, marking the start of my programming journey.
+            <span className="text-gray-400">
+                Olá, Meu nome é Luís Afonso Caputo, sou um desenvolvedor Backend e DevOps (especializado em NodeJs) apaixonado, com experiência na liderança de times e desenvolvimento com mais de 5 anos de experiência profissional. Trabalho para criar experiências de usuário atraentes e funcionais, unindo habilidades técnicas com um olhar voltado para o bom funcionamento e disponibilidade dos sistemas em que trabalho na construção.
               </span>
+
+              <p className="text-gray-400">
+                Tenho ampla experiência no desenvolvimento de software em várias áreas, com conhecimentos sólidos em tecnologias de Backend. Além disso, possuo um vasto conhecimento em Frontend e experiência em DevOps, garantindo a entrega eficiente e de alta qualidade dos projetos.
+              </p>
+
+              <p className="text-gray-400">
+                Ao longo da minha carreira, trabalhei como freelancer em projetos de Design, adicionando uma perspectiva criativa e visual ao meu conjunto de habilidades.
+              </p>
+
+              <p className="text-gray-400">
+                Minhas principais tecnologias incluem:
+              </p>
+
+              {/* <ul className="text-gray-400">
+                <li>Frontend: ReactJS, NextJS, JavaScript, Styled-Components, Material UI, TailwindCSS, Ant Design, HTML5, CSS3, SASS</li>
+                <li>Mobile: React Native (iOS/Android)</li>
+                <li>Backend: PHP(Laravel), NodeJS(Fastify, ExpressJs, NestJs e AdonisJs), Python(Django), C# e Golang</li>
+                <li>Bancos de Dados: MySQL, Maria DB, Postgresql, SQL Server, SQLite, Arango DB</li>
+                <li>DevOps: AWS, VPS, Cloudflare, Docker, Jenkins, Sonarqube, Heroku, Netlify, Render, Bitbucket Pipelines, GitHub Actions, Circle CI, AWS SES, AWS SMTP, S3, Docker, Docker-Compose</li>
+                <li>Bibliotecas de Testes: Jest, React (Native) Testing Library, Mocha, Enzyme, Cypress</li>
+                <li>Documentação: Storybook, Docz, Swagger 3.0</li>
+                <li>Adicionais: TypeScript, ViteJS, TDD, DDD, Designer Pattern, Solid, Clean Architecture, Jest ORMs(Prisma, Typeorm, etc..)</li>
+              </ul> */}
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Since pursuing my engineering degree, my career has taken me through diverse industries, allowing me to
-                refine my expertise in desktop and web development. In the realm of{" "}
-                <span className="text-AAsecondary">web3</span>, I am dedicated to pushing boundaries and driving
-                advancements. With experience working alongside esteemed organizations like{" "}
-                <span className="text-AAsecondary">ENS Vision</span>, where I played a key role in releasing v2 of{" "}
-                <span className="text-AAsecondary">ENS Vision Marketplace</span> , my passion for web3 and continuous
-                learning drives me to make a positive impact and advance technology.
+                Além do desenvolvimento de software, estou ativamente estudando diferentes áreas para aprimorar minhas habilidades. Estou focado em aprender mais sobre idiomas (Inglês), UI/UX, Gestão de Negócios, Marketing Digital e Publicidade. Também estou buscando maneiras de melhorar minhas habilidades de comunicação interpessoal e aprendendo sobre liderança e gestão de pessoas.
+                Tenho interesse em expandir meu conhecimento em AWS (SQS, RDS, EC2, EKS, ECS, Lambda,), GCP e Azure, Finanças para aplicativos de FinTech, Data Science, Java Android/Kotlin, Swift/Objective C para iOS e várias disciplinas de design, como Product Design, UX/UI Design, Industrial Design, Visual Design, Padrões de Arquiteturas, Kubernetes, Observabilidade.
+                Se você está procurando um desenvolvedor com um forte senso de funcionalidades de ponta e paixão por criar produtos excepcionais, adoraria conversar mais sobre como posso ajudar a dar vida ao seu projeto.
               </span>
             </div>
-            {/* <div className="font-Header tracking-wide">
-              <span className="text-gray-400  ">
-                Fast-forward to today, I&apos;ve had the privilege of working at
-                <span className="text-AAsecondary"> a huge manufacturing company</span>,
-                <span className="text-AAsecondary"> a start-up</span>,{" "}
-                <span className="text-AAsecondary">export-import companies</span>, also
-                <span className="text-AAsecondary"> freelancing</span> and recently as Lead for the{" "}
-                <span className="text-AAsecondary">Google Developer Student club</span>. Experienced in Desktop & Web
-                Development, lately with Arduino Development. My main focus these days is creating and testing{" "}
-                <span className="text-AAsecondary">Smart Contracts</span> with Hardhat.
-              </span>
-            </div> */}
 
             <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
-                Here are a few technologies I&apos;ve been working with recently :
+                Aqui estão algumas tecnologias I&apos;ve been working with recently :
               </span>
             </div>
             <div className="font-Header tracking-wide flex flex-row space-x-16">
